@@ -1,9 +1,12 @@
 <template>
   <div class="home">
-    <div class="container">
+    <v-container style="margin-top: 50px">
+      <!-- Image banner -->
+    </v-container>
+    <v-container>
       <v-card elevation="10" outlined id="bannercard">
         <v-btn
-          color="primary"
+          color=""
           elevation="2"
           outlined
           x-large
@@ -12,7 +15,7 @@
           >Commencez</v-btn
         >
       </v-card>
-    </div>
+    </v-container>
     <v-footer padless style="margin-top: 50px">
       <v-card flat tile class="indigo lighten-1 white--text text-center col-12">
         <v-card-text>
@@ -28,7 +31,7 @@
           </v-btn>
         </v-card-text>
         <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} | <strong>l'Usine Nantek'</strong>
+          {{ new Date().getFullYear() }} | <strong>l'Usine Nantek</strong>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -61,5 +64,6 @@ export default {
 }
 #btnstart {
   margin: 15px;
+  background-color: #ffee00;
 }
 </style>

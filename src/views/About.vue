@@ -4,7 +4,7 @@
       <v-alert color="#2A3B4D" dark icon="mdi-pencil" dense class="col-4"
         ><h2>L'usine Nantek en quelques mots</h2>
       </v-alert>
-      <v-alert color="#2A3B4D" dark outlined>
+      <v-alert color="#2A3B4D" dark outlined style="margin-top: 50px">
         <h3>
           <p>
             L'usine Nantek est une agence nantaise qui répond à vos demande de
@@ -34,7 +34,7 @@
           class="col-4"
           id="aboutcard"
         >
-          Découvrez l'équipe de L'usine Nantek' !
+          <h2>Découvrez l'équipe de L'usine Nantek' !</h2>
         </v-alert>
       </div>
       <v-card id="cardteam">
@@ -209,7 +209,7 @@
           </v-btn>
         </v-card-text>
         <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} | <strong>l'Usine Nantek'</strong>
+          {{ new Date().getFullYear() }} | <strong>l'Usine Nantek</strong>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -248,5 +248,6 @@ img {
 }
 .desc-text {
   margin-top: 40px;
+  margin-right: 20px;
 }
 </style>

@@ -1,14 +1,21 @@
 <template>
   <div id="app">
     <v-app-bar id="navbar">
-      <img
-        alt="Usine Nantek logo"
-        src="./assets/usinenanteklogo.png"
-        id="logo"
-      />
+      <router-link to="/">
+        <img
+          alt="Usine Nantek logo"
+          src="./assets/usinenanteklogo1.png"
+          id="logo"
+        />
+      </router-link>
       <div id="nav">
-        <router-link to="/">Accueil</router-link> |
-        <router-link to="/about">À propos</router-link>
+        <router-link to="/"
+          ><v-btn outlined class="btnnav">Accueil</v-btn></router-link
+        >
+        &nbsp;
+        <router-link to="/about"
+          ><v-btn outlined class="btnnav">À propos</v-btn></router-link
+        >
       </div>
     </v-app-bar>
 
@@ -16,15 +23,17 @@
   </div>
 </template>
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 #navbar {
-  background-color: #fff;
+  background-color: #ffee00;
 }
 #nav {
   padding: 10px;
@@ -45,5 +54,8 @@
   height: 50px;
   margin-top: 5px;
   margin-left: 25px;
+}
+.btnnav:hover {
+  background-color: #ffee00;
 }
 </style>
