@@ -209,7 +209,7 @@
           </v-btn>
         </v-card-text>
         <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} | <strong>Usine Nantek'</strong>
+          {{ new Date().getFullYear() }} | <strong>l'Usine Nantek'</strong>
         </v-card-text>
       </v-card>
     </v-footer>
