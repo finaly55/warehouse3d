@@ -1,22 +1,22 @@
 <template>
-  <div class="about" style="margin-top: 50px;">
+  <div class="about" style="margin-top: 50px">
     <v-container>
       <v-alert color="#2A3B4D" dark icon="mdi-pencil" dense class="col-4"
         ><h2>L'usine Nantek en quelques mots</h2>
       </v-alert>
       <v-alert color="#2A3B4D" dark outlined style="margin-top: 50px">
         <h3>
-          <p>
+          <p class="text-left">
             L'usine Nantek est une agence nantaise qui répond à vos demande de
             créations digitales.
           </p>
           <br />
-          <p>
+          <p class="text-left">
             Soucieux de vous satisfaire, nous mettons tout en œuvre pour trouver
             des solutions qui sauront satisfaire l'exigence de vos attentes.
           </p>
           <br />
-          <p>
+          <p class="text-left">
             Les domaines variés que représentent nos équipiers rendent l'usine
             Nantek unique et qualifiée. Motivation, créativité, respect et
             professionnalisme sont les mots d'ordre de notre agence.
@@ -37,7 +37,7 @@
           <h2>Découvrez l'équipe de L'usine Nantek' !</h2>
         </v-alert>
       </div>
-      <v-card id="cardteam" style="background-color: #ffec0c;">
+      <v-card id="cardteam">
         <v-row>
           <v-col>
             <v-card id="uniqueavt">
@@ -45,7 +45,10 @@
                 <v-col>
                   <img src="../assets/1.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text">Team Manager | Développeur</v-col>
+                <v-col class="desc-text"
+                  ><p>Julien Lebatard</p>
+                  Team Manager | Développeur</v-col
+                >
               </v-row>
             </v-card>
           </v-col>
@@ -55,7 +58,10 @@
                 <v-col>
                   <img src="../assets/2.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Développeur </v-col>
+                <v-col class="desc-text"
+                  ><p>Killian Bellour</p>
+                  Développeur
+                </v-col>
               </v-row>
             </v-card>
           </v-col>
@@ -65,7 +71,10 @@
                 <v-col>
                   <img src="../assets/3.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Développeur </v-col>
+                <v-col class="desc-text"
+                  ><p>Bastien Aubry</p>
+                  Développeur
+                </v-col>
               </v-row>
             </v-card>
           </v-col>
@@ -77,7 +86,10 @@
                 <v-col>
                   <img src="../assets/4.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Artiste 3D </v-col>
+                <v-col class="desc-text"
+                  ><p>Théa Coulis</p>
+                  Artiste 3D
+                </v-col>
               </v-row>
             </v-card>
           </v-col>
@@ -87,7 +99,10 @@
                 <v-col>
                   <img src="../assets/5.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Artiste 3D </v-col>
+                <v-col class="desc-text"
+                  ><p>Clément Moebus</p>
+                  Artiste 3D
+                </v-col>
               </v-row>
             </v-card></v-col
           >
@@ -97,7 +112,10 @@
                 <v-col>
                   <img src="../assets/6.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Artiste 3D </v-col>
+                <v-col class="desc-text"
+                  ><p>Sacha Anjos</p>
+                  Artiste 3D
+                </v-col>
               </v-row>
             </v-card></v-col
           >
@@ -109,7 +127,8 @@
                 <v-col>
                   <img src="../assets/7.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text">
+                <v-col class="desc-text"
+                  ><p>Enzo Cochart</p>
                   Admnistrateur système et réseau
                 </v-col>
               </v-row>
@@ -121,7 +140,8 @@
                 <v-col>
                   <img src="../assets/8.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text">
+                <v-col class="desc-text"
+                  ><p>Valentin Demont</p>
                   Admnistrateur système et réseau
                 </v-col>
               </v-row>
@@ -133,7 +153,10 @@
                 <v-col>
                   <img src="../assets/9.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Chargé évenementiel </v-col>
+                <v-col class="desc-text"
+                  ><p>Gaetan Jacob</p>
+                  Chargé évenementiel
+                </v-col>
               </v-row>
             </v-card></v-col
           >
@@ -145,7 +168,10 @@
                 <v-col>
                   <img src="../assets/10.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Chargé évenementiel </v-col>
+                <v-col class="desc-text"
+                  ><p>Baptiste Perdreau</p>
+                  Chargé évenementiel
+                </v-col>
               </v-row>
             </v-card>
           </v-col>
@@ -155,7 +181,10 @@
                 <v-col>
                   <img src="../assets/11.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Chargé en communication </v-col>
+                <v-col class="desc-text"
+                  ><p>Emilie Dabireau</p>
+                  Chargé en communication
+                </v-col>
               </v-row>
             </v-card></v-col
           >
@@ -165,7 +194,10 @@
                 <v-col>
                   <img src="../assets/12.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Développeur </v-col>
+                <v-col class="desc-text"
+                  ><p>Alexandre Lairie</p>
+                  Développeur
+                </v-col>
               </v-row>
             </v-card></v-col
           >
@@ -177,7 +209,10 @@
                 <v-col>
                   <img src="../assets/13.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Développeur </v-col>
+                <v-col class="desc-text"
+                  ><p>Rami Iliass</p>
+                  Développeur
+                </v-col>
               </v-row>
             </v-card>
           </v-col>
@@ -187,15 +222,18 @@
                 <v-col>
                   <img src="../assets/13.png" alt="John" />
                 </v-col>
-                <v-col class="desc-text"> Développeur </v-col>
+                <v-col class="desc-text"
+                  ><p>Antoine Marquaille</p>
+                  Développeur
+                </v-col>
               </v-row>
             </v-card></v-col
           >
         </v-row>
       </v-card>
     </v-container>
-    <v-footer padless style="margin-top: 50px; background-color: #ffec0c;">
-      <v-card flat tile class="text-center col-12" style="background-color: #ffec0c;">
+    <v-footer padless style="margin-top: 50px">
+      <v-card flat tile class="text-center col-12">
         <v-card-text>
           <v-btn
             v-for="icon in icons"
@@ -228,6 +266,10 @@ export default {
 
 
 <style>
+.text-left {
+  text-align: left;
+  font-size: 22px;
+}
 #uniqueavt {
   margin: 10px;
   font-size: 1.2rem;
@@ -240,14 +282,13 @@ img {
 #aboutcard {
   margin-top: 100px;
 }
-
 #cardteam {
   margin-top: 25px;
   box-shadow: none;
   border: none;
 }
 .desc-text {
-  margin-top: 40px;
+  margin-top: 15px;
   margin-right: 20px;
   color: #3555a2;
 }
