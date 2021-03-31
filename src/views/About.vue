@@ -249,5 +249,6 @@ img {
 .desc-text {
   margin-top: 40px;
   margin-right: 20px;
+  color: #3555a2;
 }
 </style>
