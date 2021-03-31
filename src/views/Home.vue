@@ -1,11 +1,9 @@
 <template>
   <div class="home">
-    <v-container style="margin-top: 50px">
-      <!-- Image banner -->
-    </v-container>
     <v-container>
       <v-card elevation="10" outlined id="bannercard">
         <v-btn
+          @click="start"
           color=""
           elevation="2"
           outlined
@@ -15,6 +13,19 @@
           >Commencez</v-btn
         >
       </v-card>
+      <v-btn
+        style="
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          z-index: 300;
+          display: none;
+        "
+        id="close-game"
+        @click="close"
+      >
+        Fermer
+      </v-btn>
     </v-container>
     <v-footer padless style="margin-top: 50px">
       <v-card flat tile class="indigo lighten-1 white--text text-center col-12">
@@ -52,6 +63,25 @@ export default {
   name: "Home",
   components: {
     HelloWorld,
+  },
+  methods: {
+    start() {
+      var container = document.querySelector("#unity-container");
+      var closeGame = document.querySelector("#close-game");
+
+      container.style.display = "block";
+      document.documentElement.style.overflow = "hidden";
+      closeGame.style.display = "block";
+    },
+
+    close() {
+      var container = document.querySelector("#unity-container");
+      var closeGame = document.querySelector("#close-game");
+
+      container.style.display = "none";
+      document.documentElement.style.overflow = "scroll";
+      closeGame.style.display = "none";
+    },
   },
 };
 </script>
