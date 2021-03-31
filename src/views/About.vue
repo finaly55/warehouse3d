@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" style="margin-top: 50px;">
     <v-container>
       <v-alert color="#2A3B4D" dark icon="mdi-pencil" dense class="col-4"
         ><h2>L'usine Nantek en quelques mots</h2>
@@ -37,7 +37,7 @@
           <h2>Découvrez l'équipe de L'usine Nantek' !</h2>
         </v-alert>
       </div>
-      <v-card id="cardteam">
+      <v-card id="cardteam" style="background-color: #ffec0c;">
         <v-row>
           <v-col>
             <v-card id="uniqueavt">
@@ -194,8 +194,8 @@
         </v-row>
       </v-card>
     </v-container>
-    <v-footer padless style="margin-top: 50px">
-      <v-card flat tile class="indigo lighten-1 white--text text-center col-12">
+    <v-footer padless style="margin-top: 50px; background-color: #ffec0c;">
+      <v-card flat tile class="text-center col-12" style="background-color: #ffec0c;">
         <v-card-text>
           <v-btn
             v-for="icon in icons"
