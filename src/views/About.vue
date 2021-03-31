@@ -42,8 +42,10 @@
           <v-col>
             <v-card id="uniqueavt">
               <v-row>
-                <v-col>
-                  <img src="../assets/1.png" alt="John" />
+                <v-col
+                  ><v-avatar size="100">
+                    <v-img src="../assets/1.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Julien Lebatard</p>
@@ -55,8 +57,10 @@
           <v-col>
             <v-card id="uniqueavt">
               <v-row>
-                <v-col>
-                  <img src="../assets/2.png" alt="John" />
+                <v-col
+                  ><v-avatar size="100">
+                    <v-img size="100" src="../assets/2.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Killian Bellour</p>
@@ -68,8 +72,10 @@
           <v-col>
             <v-card id="uniqueavt">
               <v-row>
-                <v-col>
-                  <img src="../assets/3.png" alt="John" />
+                <v-col
+                  ><v-avatar size="100">
+                    <v-img src="../assets/3.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Bastien Aubry</p>
@@ -83,8 +89,10 @@
           <v-col>
             <v-card id="uniqueavt">
               <v-row>
-                <v-col>
-                  <img src="../assets/4.png" alt="John" />
+                <v-col
+                  ><v-avatar size="100">
+                    <v-img src="../assets/4.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Théa Coulis</p>
@@ -96,8 +104,10 @@
           <v-col
             ><v-card id="uniqueavt">
               <v-row>
-                <v-col>
-                  <img src="../assets/5.png" alt="John" />
+                <v-col
+                  ><v-avatar size="100">
+                    <v-img src="../assets/5.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Clément Moebus</p>
@@ -109,8 +119,10 @@
           <v-col
             ><v-card id="uniqueavt">
               <v-row>
-                <v-col>
-                  <img src="../assets/6.png" alt="John" />
+                <v-col
+                  ><v-avatar size="100">
+                    <v-img src="../assets/6.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Sacha Anjos</p>
@@ -125,7 +137,7 @@
             <v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/7.png" alt="John" />
+                  <v-avatar size="100"> <v-img src="../assets/7.png" alt="John" /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Enzo Cochart</p>
@@ -138,7 +150,7 @@
             ><v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/8.png" alt="John" />
+                  <v-avatar size="100"> <v-img src="../assets/8.png" alt="John" /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Valentin Demont</p>
@@ -151,7 +163,7 @@
             ><v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/9.png" alt="John" />
+                  <v-avatar size="100"> <v-img src="../assets/9.png" alt="John" /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Gaetan Jacob</p>
@@ -166,7 +178,9 @@
             <v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/10.png" alt="John" />
+                  <v-avatar size="100">
+                    <v-img src="../assets/10.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Baptiste Perdreau</p>
@@ -179,7 +193,8 @@
             ><v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/11.png" alt="John" />
+                  <v-avatar size="100">
+                  <v-img src="../assets/11.png" alt="John" /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Emilie Dabireau</p>
@@ -192,7 +207,8 @@
             ><v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/12.png" alt="John" />
+                  <v-avatar size="100">
+                  <v-img src="../assets/12.png" alt="John" /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Alexandre Lairie</p>
@@ -207,7 +223,8 @@
             <v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/13.png" alt="John" />
+                  <v-avatar size="100">
+                  <v-img src="../assets/13.png" alt="John" /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Rami Iliass</p>
@@ -220,7 +237,9 @@
             ><v-card id="uniqueavt">
               <v-row>
                 <v-col>
-                  <img src="../assets/13.png" alt="John" />
+                  <v-avatar size="100">
+                    <v-v-img src="../assets/13.png" alt="John"
+                  /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
                   ><p>Antoine Marquaille</p>
@@ -274,11 +293,7 @@ export default {
   margin: 10px;
   font-size: 1.2rem;
 }
-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-}
+
 #aboutcard {
   margin-top: 100px;
 }

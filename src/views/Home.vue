@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
+    <div class="home" style="background-color: #ffec0c;">
     <v-container>
       <v-card
         elevation="10"
         outlined
         id="bannercard"
-        style="background-color: #ffec0c; border: none"
+        style="background-color: #ffec0c; border: none;"
       >
         <v-container>
           <v-row class="mb-6" no-gutters>
@@ -131,28 +131,21 @@ export default {
   },
 };
 </script>
-
 <style>
-body {
-  background-color: #ffec0c;
-}
 #bannercard {
   margin-top: 100px;
   width: 100%;
   height: 500px;
 }
-
 #btnstart {
   margin: 15px;
   background-color: #3555a2;
   margin-left: 300px;
 }
-
 #btnstart:hover {
   background-color: #2177c7;
 }
-
-#textbtnstart {
+#textbtnstart{
   color: white;
   font-size: 22px;
   margin-left: 10px;
@@ -170,3 +163,4 @@ body {
   float: left;
 }
 </style>
+© 2021 GitHub, Inc.
