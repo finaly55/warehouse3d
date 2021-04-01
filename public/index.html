@@ -22,8 +22,9 @@
   <div id="app"></div>
 
   <!-- built files will be auto injected -->
-  <div id="unity-container" class="unity-desktop" style="display: none; position: absolute; top :1000000000px; left : 100000000000px;">
-    <canvas id="unity-canvas"></canvas>
+  <div id="unity-container" class="unity-desktop"
+    style="display: none; position: absolute; top :1000000000px; left : 100000000000px; transform: inherit;     height: 100%;">
+    <canvas id="unity-canvas" style="transform: inherit;width: 100vw; height: 100%"></canvas>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
       <div id="unity-progress-bar-empty">
