@@ -238,7 +238,7 @@
               <v-row>
                 <v-col>
                   <v-avatar size="100">
-                    <v-v-img src="../assets/13.png" alt="John"
+                    <v-img src="../assets/13.png" alt="John"
                   /></v-avatar>
                 </v-col>
                 <v-col class="desc-text"
